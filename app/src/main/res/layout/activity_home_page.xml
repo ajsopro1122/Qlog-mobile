@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amarante"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="59dp"
+        android:text="Welcome"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/walkIn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:text="Walk In"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/bookAppointment"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:text="Book Appointment"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/walkIn"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="395dp" />
+</RelativeLayout>
